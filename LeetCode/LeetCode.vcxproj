@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\Mile.Cpp\Mile.Project\Mile.Project.Platform.Win32.props" />
+  <Import Project="..\Mile.Cpp\Mile.Project\Mile.Project.Platform.x64.props" />
+  <Import Project="..\Mile.Cpp\Mile.Project\Mile.Project.Platform.ARM64.props" />
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0A3DE846-F1A8-44D6-AA5A-B5C4F523C225}</ProjectGuid>
+    <RootNamespace>LeetCode</RootNamespace>
+    <MileProjectType>ConsoleApplication</MileProjectType>
+  </PropertyGroup>
+  <Import Project="..\Mile.Cpp\Mile.Project\Mile.Project.props" />
+  <Import Project="..\Mile.Cpp\Mile.Project\Mile.Project.Runtime.VC-LTL.props" />
+  <ItemGroup>
+    <ClCompile Include="LeetCode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mile.Project.Properties.h" />
+  </ItemGroup>
+  <Import Project="..\Mile.Cpp\Mile.Project\Mile.Project.targets" />
+</Project>
